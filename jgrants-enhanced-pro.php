@@ -7,7 +7,7 @@
  * Author: Enhanced Pro Development Team
  * Author URI: https://jgrants-auto-poster.pro
  * License: GPL v2 or later
- * Text Domain: jgrants-auto-poster-enhanced-pro
+ * Text Domain: jgrants-enhanced-pro
  * Domain Path: /languages
  * Requires at least: 5.8
  * Requires PHP: 7.4
