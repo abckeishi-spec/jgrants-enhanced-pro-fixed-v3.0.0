@@ -1,0 +1,94 @@
+/* Jグランツ自動投稿システム管理画面CSS */
+.jgap-dashboard .dashicons-money-alt {
+    color: #0073aa;
+    margin-right: 5px;
+}
+
+.jgap-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.jgap-stat-card {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+}
+
+.jgap-stat-card h3 {
+    margin-top: 0;
+    color: #23282d;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.stat-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0073aa;
+    margin: 10px 0;
+}
+
+.stat-label {
+    color: #666;
+    font-size: 12px;
+}
+
+.stat-text {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.stat-status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.stat-status.online {
+    background: #46b450;
+    color: white;
+}
+
+.stat-status.offline {
+    background: #dc3232;
+    color: white;
+}
+
+.jgap-actions {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.jgap-actions h2 {
+    margin-top: 0;
+}
+
+.jgap-actions button {
+    margin-right: 10px;
+}
+
+.jgap-performance {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.jgap-performance h2 {
+    margin-top: 0;
+}
+
+#action-result {
+    margin-top: 15px;
+}
